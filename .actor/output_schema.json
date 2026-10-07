@@ -1,0 +1,13 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Product Hunt Launches & Makers Output",
+    "description": "Structured dataset of Product Hunt launches, makers, and product profiles.",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Product Hunt Launches Dataset",
+            "description": "Default dataset containing extracted product details and maker profiles.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

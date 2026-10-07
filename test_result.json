@@ -1,0 +1,21 @@
+{
+  "actor_id": "v7ZXHgqyFNOSXfbgy",
+  "actor_name": "product-hunt-launches-makers-scraper",
+  "build_num": "1.0.7",
+  "run_id": "zaxESscN4SiONk5Jg",
+  "duration": 5.3,
+  "items_count": 10,
+  "cost": 0.00010967656209071476,
+  "sample_item": {
+    "id": "1271031",
+    "name": "IrisGo for Solopreneurs",
+    "tagline": "AI workflow automation: show it once, let it run",
+    "category": "ai",
+    "productHuntUrl": "https://www.producthunt.com/products/irisgo-public-beta",
+    "websiteUrl": "",
+    "cleanWebsite": "",
+    "description": "AI workflow automation: show it once, let it run",
+    "votesCount": 0,
+    "extractedAt": "2026-10-07T12:05:14.573976+00:00"
+  }
+}

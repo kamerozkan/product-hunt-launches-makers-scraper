@@ -1,0 +1,38 @@
+{
+  "title": "Product Hunt Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "category": {
+      "title": "Category or Topic",
+      "type": "string",
+      "description": "Choose category to extract launches from. Select 'all' for homepage daily trending.",
+      "editor": "select",
+      "default": "ai",
+      "enum": [
+        "all",
+        "ai",
+        "developer-tools",
+        "productivity",
+        "marketing",
+        "design-tools",
+        "finance"
+      ]
+    },
+    "maxItems": {
+      "title": "Maximum Products",
+      "type": "integer",
+      "description": "Maximum number of products to extract.",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "enrichDetails": {
+      "title": "Enrich Product Details (Website & Overview)",
+      "type": "boolean",
+      "description": "Fetch official product website URL, extended description, and launch votes.",
+      "default": true
+    }
+  },
+  "required": ["category", "maxItems"]
+}

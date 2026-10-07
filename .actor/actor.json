@@ -1,0 +1,20 @@
+{
+  "actorSpecification": 1,
+  "name": "product-hunt-launches-makers-scraper",
+  "title": "Product Hunt Scraper & Daily Launch Leads (Makers & Startups)",
+  "description": "Extract trending Product Hunt launches, makers, tech tags, upvote counts, rankings, and product URLs. Ultra-fast HTTP, zero proxy fees, $0.003/product.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "defaultMemoryMbytes": 256,
+  "minMemoryMbytes": 128,
+  "maxMemoryMbytes": 1024,
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "dockerfile": "../Dockerfile"
+}

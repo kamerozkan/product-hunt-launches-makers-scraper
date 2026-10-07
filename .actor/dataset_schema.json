@@ -1,0 +1,49 @@
+{
+    "actorSpecification": 1,
+    "title": "Product Hunt Launches",
+    "description": "Daily and trending Product Hunt launches with makers, websites, and metrics.",
+    "views": {
+        "overview": {
+            "title": "Launches Overview",
+            "transformation": {
+                "fields": [
+                    "name",
+                    "tagline",
+                    "cleanWebsite",
+                    "votesCount",
+                    "category",
+                    "productHuntUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "name": {
+                        "label": "Product",
+                        "format": "text"
+                    },
+                    "tagline": {
+                        "label": "Tagline",
+                        "format": "text"
+                    },
+                    "cleanWebsite": {
+                        "label": "Official Website",
+                        "format": "link"
+                    },
+                    "votesCount": {
+                        "label": "Votes",
+                        "format": "number"
+                    },
+                    "category": {
+                        "label": "Category",
+                        "format": "text"
+                    },
+                    "productHuntUrl": {
+                        "label": "PH Link",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
